@@ -1,0 +1,9 @@
+{
+  "hosting": {
+    "site": "fastorial-start-building",
+    "public": "out",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "cleanUrls": true,
+    "trailingSlash": false
+  }
+}
