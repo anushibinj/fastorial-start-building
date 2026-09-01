@@ -1,0 +1,16 @@
+.wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.lede {
+  color: var(--color-text-muted);
+  font-size: 1.02rem;
+  max-width: 44ch;
+  margin-bottom: 2rem;
+}

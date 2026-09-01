@@ -1,0 +1,31 @@
+.hero {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-amber);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-size: 2.1rem;
+  max-width: 22ch;
+}
+
+.lede {
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+  max-width: 42ch;
+}
+
+@media (min-width: 560px) {
+  .title {
+    font-size: 2.6rem;
+  }
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "expense-tracker",
+    "name": "Expense Tracker with Budget Alerts",
+    "level": "beginner",
+    "tag": "CRUD + logic",
+    "personas": ["student", "fresher", "qa-to-dev", "other"],
+    "seoDescription": "Build a budget tracker that actually warns you before you overspend — real aggregation logic, not another todo list."
+  },
+  {
+    "slug": "url-shortener",
+    "name": "URL Shortener with Expiry & Click Analytics",
+    "level": "beginner",
+    "tag": "APIs + data",
+    "personas": ["student", "fresher", "qa-to-dev", "other"],
+    "seoDescription": "Build a URL shortener where links actually expire and you can see who clicked what, when — hashing, redirects, and real analytics."
+  },
+  {
+    "slug": "cli-habit-tracker",
+    "name": "CLI Habit Tracker",
+    "level": "beginner",
+    "tag": "CLI + persistence",
+    "personas": ["student", "fresher", "qa-to-dev", "other"],
+    "seoDescription": "A terminal habit tracker with streaks and local persistence — no framework to hide behind, just you, the filesystem, and your own logic."
+  },
+  {
+    "slug": "bug-tracker",
+    "name": "Simple Bug Tracker",
+    "level": "beginner",
+    "tag": "CRUD + workflow",
+    "personas": ["qa-to-dev"],
+    "seoDescription": "A minimal bug tracker built from the tester's side of the fence — statuses, priorities, and the workflow logic that makes triage actually work."
+  },
+  {
+    "slug": "slack-channel-presence",
+    "name": "Slack-Style Channel with Live Presence",
+    "level": "intermediate",
+    "tag": "Realtime",
+    "personas": ["student", "fresher", "qa-to-dev", "other"],
+    "seoDescription": "A Slack-style channel with live typing indicators and presence — the first project where 'it works on refresh' isn't good enough anymore."
+  },
+  {
+    "slug": "rate-limited-api-gateway",
+    "name": "Rate-Limited API Gateway (Redis)",
+    "level": "intermediate",
+    "tag": "Infra + Redis",
+    "personas": ["student", "fresher", "qa-to-dev", "other"],
+    "seoDescription": "A Redis-backed API gateway that actually rate-limits — token buckets, sliding windows, and the failure modes that only show up under load."
+  },
+  {
+    "slug": "job-listing-scraper",
+    "name": "Job Listing Scraper with Dedup Pipeline",
+    "level": "intermediate",
+    "tag": "Data pipelines",
+    "personas": ["student", "fresher", "qa-to-dev", "other"],
+    "seoDescription": "A job listing scraper that pulls from multiple sources and dedupes the same posting across all of them — the unglamorous data-cleaning work that separates a script from a pipeline."
+  },
+  {
+    "slug": "personal-analytics-dashboard",
+    "name": "Personal Analytics Dashboard (OAuth)",
+    "level": "intermediate",
+    "tag": "Auth + APIs",
+    "personas": ["student", "fresher", "qa-to-dev", "other"],
+    "seoDescription": "A personal analytics dashboard behind real OAuth — pull your own data from a provider you actually use and make sense of it."
+  },
+  {
+    "slug": "test-automation-framework",
+    "name": "Test Automation Framework from Scratch",
+    "level": "intermediate",
+    "tag": "Testing",
+    "personas": ["qa-to-dev"],
+    "seoDescription": "Build the test framework, not just the tests — page objects, fixtures, and reporting, from someone who's spent a career on the other side of the bug."
+  },
+  {
+    "slug": "multi-tenant-notes",
+    "name": "Multi-Tenant Note-Taking App",
+    "level": "advanced",
+    "tag": "Architecture",
+    "personas": ["student", "fresher", "qa-to-dev", "other"],
+    "seoDescription": "A note-taking app where tenant isolation is the whole point — get the data model wrong and one customer reads another customer's notes."
+  },
+  {
+    "slug": "event-driven-order-pipeline",
+    "name": "Event-Driven Order Pipeline",
+    "level": "advanced",
+    "tag": "Event-driven",
+    "personas": ["student", "fresher", "qa-to-dev", "other"],
+    "seoDescription": "An order pipeline built on events instead of one big service — where 'what happens when step three fails' is the actual assignment."
+  },
+  {
+    "slug": "cicd-pipeline-for-your-project",
+    "name": "CI/CD Pipeline for Your Own Project",
+    "level": "advanced",
+    "tag": "DevOps",
+    "personas": ["student", "fresher", "qa-to-dev", "other"],
+    "seoDescription": "Build a real CI/CD pipeline for a project you already own — tests, builds, and deploys that run themselves, and fail loudly when they should."
+  },
+  {
+    "slug": "merge-an-open-source-pr",
+    "name": "Merge a Real Open-Source PR",
+    "level": "advanced",
+    "tag": "Open source",
+    "personas": ["student", "fresher", "qa-to-dev", "other"],
+    "seoDescription": "Not a simulated project — a real pull request into a real open-source repo, from finding an issue to getting your code merged."
+  }
+]

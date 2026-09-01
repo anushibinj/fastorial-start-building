@@ -1,0 +1,43 @@
+.header {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.1rem 1.25rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.logo span {
+  color: var(--color-amber);
+}
+
+.nav {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.navLink {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: var(--color-text-muted);
+  letter-spacing: 0.02em;
+}
+
+.navLink:hover,
+.navLink:focus-visible {
+  color: var(--color-amber);
+}

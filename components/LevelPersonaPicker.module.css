@@ -1,0 +1,99 @@
+.picker {
+  margin-top: 1.5rem;
+}
+
+.step {
+  margin-bottom: 2.25rem;
+}
+
+.stepTitle {
+  font-size: 1.05rem;
+  color: var(--color-text-muted);
+  font-family: var(--font-mono);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.9rem;
+}
+
+.optionGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.65rem;
+}
+
+@media (min-width: 560px) {
+  .optionGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.optionButton {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  text-align: left;
+  background: var(--color-bg-raised);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  min-height: 3rem;
+  color: var(--color-text);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition:
+    border-color 0.12s ease,
+    background-color 0.12s ease;
+}
+
+.optionButton:hover,
+.optionButton:focus-visible {
+  border-color: var(--color-amber);
+  background: var(--color-bg-raised-hover);
+}
+
+.optionButtonActive {
+  border-color: var(--color-amber);
+  background: var(--color-bg-raised-hover);
+}
+
+.optionLabel {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.optionBlurb {
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.skipLevelLink {
+  display: inline-block;
+  margin-top: 0.9rem;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--color-teal);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.skipAllLink {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+  width: 100%;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.skipAllLink:hover,
+.skipAllLink:focus-visible {
+  color: var(--color-amber);
+}

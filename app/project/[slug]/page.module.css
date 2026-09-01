@@ -1,0 +1,42 @@
+.wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 5rem;
+}
+
+.breadcrumb {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.9rem;
+}
+
+.breadcrumb a {
+  color: var(--color-text-muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.breadcrumb a:hover,
+.breadcrumb a:focus-visible {
+  color: var(--color-amber);
+}
+
+.title {
+  font-size: 2rem;
+  max-width: 24ch;
+}
+
+.summary {
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+  max-width: 44ch;
+  margin-bottom: 1.25rem;
+}
+
+.badgeRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 2.25rem;
+}

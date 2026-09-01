@@ -1,0 +1,28 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0.25em 0.6em;
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+.level {
+  border-color: var(--color-amber);
+  color: var(--color-amber-strong);
+}
+
+.tag {
+  border-color: var(--color-teal);
+  color: var(--color-teal);
+}
+
+.persona {
+  background: var(--color-paper);
+  color: var(--color-paper-text);
+}
